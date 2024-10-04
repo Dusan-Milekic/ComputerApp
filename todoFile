@@ -1,0 +1,17 @@
+3/10/2024 - PROBLEMS
+Check all erros and mistakes python main.py and localprogram.py
+and push to github!
+
+Fix eerrors with webapp and python.
+Run html with pyton
+
+4/10/2024 - SOLUTION
+With a starting web app mistake was a order
+  what I fixed:
+    linecode 23: start_server() -> openbrowser()
+    linecode 24: open_browser() -> startserver()
+
+  why?
+  Becuase first start browser thats not async
+  then i started browser first, then  server.
+
